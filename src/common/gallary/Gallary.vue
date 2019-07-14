@@ -1,5 +1,5 @@
 <template>
-  <div 
+  <div
     class="container"
     @click="handleGallaryClick">
     <div class="wrapper">
@@ -20,7 +20,7 @@
       imgs: {
         type: Array,
         default () {
-          return [] 
+          return []
         }
       }
     },
@@ -59,7 +59,7 @@
     .wrapper
       width: 100%
       height: 0
-      padding-bottom: 66.66%
+      padding-bottom: 100%
       .gallary-img
         width: 100%;
       .swiper-pagination
